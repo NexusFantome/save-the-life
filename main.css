@@ -1,0 +1,99 @@
+:root {
+  --primary-color: #1d5c1d;
+  --secondary-color: #004445;
+  --accent-color: #f8b400;
+  --light-color: #faf5e4;
+  --dark-color: #1a1a1a;
+  --blue-color: #086fb4;
+}
+.bg-success {
+  background: var(--primary-color) !important;
+}
+.navbar-brand img {
+  width: 100%;
+}
+body {
+  background: white;
+  color: white;
+}
+.titre {
+  color: white;
+}
+.black {
+  color: black;
+}
+nav {
+  background: var(--light-color);
+  color: var(--dark-color);
+}
+ul > li > a {
+  color: white;
+}
+.hero-section {
+  background: linear-gradient(rgba(0, 69, 32, 0.395), rgba(0, 69, 21, 0.523)),
+    url("hero.avif");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 0;
+  margin-bottom: 50px;
+}
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 60px 0;
+  }
+}
+@media (max-width: 320px) {
+  .navbar-brand img {
+    width: 200px;
+  }
+}
+.nav-link {
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.nav-link:hover {
+  color: #ff0000;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.initiative-card {
+  border-left: 5px solid var(--primary-color);
+}
+
+.initiative-item {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+
+.initiative-item:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 15px;
+  height: 15px;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+}
+footer {
+  background-color: #1d5c1d;
+  color: white;
+}
+.list-unstyled > li > a {
+  color: white;
+}
+.social-icons > a {
+  color: white;
+}
+section {
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+#actions {
+  background: linear-gradient(var(--blue-color), rgba(232, 40, 37, 0.8));
+}
+#about {
+  padding-bottom: 50px !important;
+}
